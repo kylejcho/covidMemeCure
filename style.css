@@ -62,19 +62,19 @@ button:hover {
   }
 
   .divImg {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
   }
 
   header {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   button {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     margin-bottom: 0rem;
-    width: 10rem;
+    width: 11rem;
     height: 2rem;
     font-size: 1.5rem;
   }
