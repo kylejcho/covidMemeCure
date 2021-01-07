@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gaegu", sans-serif;
+  background-color: rgb(255, 203, 91);
+  min-height: 100vh;
+  color: white;
+}
+
+header,
+p,
+.divImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+p {
+  color: rgb(78, 78, 78);
+  font-size: 1.5rem;
+  font-weight: 1000;
+  margin-top: 0;
+}
+
+.divImg {
+  border: 0px;
+  outline: 0px;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  width: 15rem;
+  height: 3rem;
+  font-family: "Gaegu", sans-serif;
+  font-size: 2rem;
+  font-weight: 1000;
+  border: 2 px;
+  outline: none;
+  color: rgb(78, 78, 78);
+  background-color: rgb(255, 213, 151);
+}
+
+button:hover {
+  background-color: rgb(252, 226, 187);
+  width: 16rem;
+  height: 3.5rem;
+  transition: all 0.5s;
+}
