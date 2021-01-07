@@ -58,6 +58,7 @@ button:hover {
   header,
   p {
     margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 
   .divImg {
@@ -69,7 +70,7 @@ button:hover {
   }
 
   button {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
   }
 }
