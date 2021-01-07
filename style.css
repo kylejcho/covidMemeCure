@@ -45,6 +45,7 @@ button {
   outline: none;
   color: rgb(78, 78, 78);
   background-color: rgb(255, 213, 151);
+  border-radius: 3rem;
 }
 
 button:hover {
