@@ -53,3 +53,23 @@ button:hover {
   height: 3.5rem;
   transition: all 0.5s;
 }
+
+@media all and (max-width: 800px) {
+  header,
+  p {
+    margin-top: 0rem;
+  }
+
+  .divImg {
+    margin-top: 1rem;
+  }
+
+  header {
+    font-size: 2rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
