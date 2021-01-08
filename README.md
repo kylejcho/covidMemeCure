@@ -11,10 +11,12 @@ The code uses the GIPHY API to retrieve gifs pertaining to the search criteria. 
 You can generate your own GIPHY API link with your own parameters here:
 https://developers.giphy.com/explorer
 
-**Future improvements list**
+**FUTURE IMPROVEMENTS LIST**
 
 -Making it simpler for users to add their own GIPHY developer API code and search criteria.
 
 -Add more styling to the background.
 
 -Add sound affects to button click.
+
+-"Add some cupcakes" as requested by my girlfriend.
