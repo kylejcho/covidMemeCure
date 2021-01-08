@@ -1,3 +1,4 @@
+//retrieve data from GIPHY API
 let image = document.querySelector("#img");
 
 fetch(
@@ -10,6 +11,9 @@ fetch(
   })
   .catch();
 
-document.getElementById("textChanger").addEventListener("click", function () {
+//EVENT LISTENERS
+
+//Button click causes page refresh/new gif
+document.getElementById("gifChanger").addEventListener("click", function () {
   location.reload();
 });

@@ -45,13 +45,14 @@ button {
   width: 16rem;
   height: 3rem;
   font-family: "Gaegu", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 1000;
   border: 2 px;
   outline: none;
   color: rgb(78, 78, 78);
   background-color: rgb(255, 213, 151);
   border-radius: 3rem;
+  transition: all 0.5s;
 }
 
 i {
@@ -62,11 +63,13 @@ i {
 
 button:hover {
   background-color: rgb(252, 226, 187);
-  width: 16rem;
+  width: 17rem;
   height: 3.5rem;
+  font-size: 2rem;
   transition: all 0.5s;
 }
 
+/*MOBILE media query*/
 @media all and (max-width: 800px) {
   header,
   p {
