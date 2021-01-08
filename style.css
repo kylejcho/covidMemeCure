@@ -28,6 +28,10 @@ p {
   margin-top: 0;
 }
 
+.notReally {
+  font-size: 0.9rem;
+}
+
 .divImg {
   border: 0px;
   outline: 0px;
@@ -36,7 +40,7 @@ p {
 button {
   display: block;
   margin: 1rem auto;
-  width: 15rem;
+  width: 16rem;
   height: 3rem;
   font-family: "Gaegu", sans-serif;
   font-size: 2rem;
@@ -46,6 +50,12 @@ button {
   color: rgb(78, 78, 78);
   background-color: rgb(255, 213, 151);
   border-radius: 3rem;
+}
+
+i {
+  color: rgb(218, 95, 95);
+  font-size: 1.25rem;
+  margin-left: 0.2rem;
 }
 
 button:hover {
