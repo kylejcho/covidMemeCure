@@ -29,7 +29,9 @@ p {
 }
 
 .notReally {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
 }
 
 .divImg {
