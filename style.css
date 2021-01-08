@@ -91,4 +91,7 @@ button:hover {
     height: 2rem;
     font-size: 1.5rem;
   }
+  .notReally {
+    font-size: 0.5rem;
+  }
 }
