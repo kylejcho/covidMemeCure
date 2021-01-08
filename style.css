@@ -36,7 +36,7 @@ p {
 
 .divImg {
   border: 0px;
-  outline: 0px;
+  outline: 0rem;
 }
 
 button {
@@ -79,7 +79,7 @@ button:hover {
 
   .divImg {
     margin-top: 0.25rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.5rem 0 1.5rem;
   }
 
   header {
