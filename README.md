@@ -2,7 +2,7 @@
 
 **ABOUT**
 
-A simple project dedicated for curing the covid blues.
+A simple project dedicated to curing the covid blues.
 
 **HOW IT WORKS**
 
