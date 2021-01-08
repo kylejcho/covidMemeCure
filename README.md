@@ -13,6 +13,6 @@ https://developers.giphy.com/explorer
 
 **Future improvements list**
 
-*Making it simpler for users to add their own GIPHY developer API code and search criteria.
-*Add more styling to the background
-\*Add sound affects to button click
+\*Making it simpler for users to add their own GIPHY developer API code and search criteria.
+\*Add more styling to the background.
+\*Add sound affects to button click.
