@@ -51,7 +51,7 @@ button {
   outline: none;
   color: rgb(78, 78, 78);
   background-color: rgb(255, 213, 151);
-  border-radius: 0.5rem;
+  border-radius: 0.55rem;
   transition: all 0.5s;
 }
 
