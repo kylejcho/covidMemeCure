@@ -40,6 +40,11 @@ p,
   margin: 0 50px;
 }
 
+#arrow {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 1.5rem;
   font-weight: 1000;
@@ -58,12 +63,17 @@ p {
   justify-content: center;
 }
 
+.container svg {
+  margin-top: 150px;
+}
 .divImg {
-  border: 0px;
   outline: 0rem;
   background: bisque;
-  border: 3px solid #3964a3;
-  border-radius: 10px;
+  border: 5px solid #3964a3;
+  border-radius: 7px;
+  height: 520px;
+  width: 730px;
+  box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.315);
 }
 
 .buttonContainer {
@@ -85,7 +95,7 @@ button {
   font-family: "Patrick Hand", sans-serif;
   font-size: 1.4rem;
   font-weight: 1000;
-  border: 2px solid rgb(34, 71, 126);
+  border: 2px solid #22477e;
   color: rgb(34, 71, 126);
   background-color: rgb(255, 255, 255);
   transition: all 0.5s;
