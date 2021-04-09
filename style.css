@@ -117,6 +117,10 @@ button:hover {
     height: 50px;
   }
 
+  .topCloud svg {
+    width: 0;
+  }
+
   svg {
     width: 5em;
   }
@@ -130,8 +134,12 @@ button:hover {
     width: 0;
   }
 
+  .container {
+    width: auto;
+  }
+
   .divImg {
-    border: 10px solid bisque;
+    border-top: 10px solid bisque;
     outline: 0rem;
     margin-top: 0.25rem;
     margin: 0 1.5rem;
