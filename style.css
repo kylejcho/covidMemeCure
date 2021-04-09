@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +7,17 @@
 }
 
 body {
-  font-family: "Gaegu", sans-serif;
-  background-color: rgb(255, 203, 91);
+  font-family: "Patrick Hand", sans-serif;
+  background-color: rgb(231, 239, 255);
   min-height: 100vh;
-  color: white;
+  color: rgb(34, 71, 126);
+  border: 7px solid rgb(34, 71, 126);
+}
+
+.topCloud {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 120px;
 }
 
 header,
@@ -17,55 +26,75 @@ p,
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 3rem;
 }
 
+.subhead {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.subhead svg {
+  margin: 0 50px;
+}
+
 p {
-  color: rgb(78, 78, 78);
   font-size: 1.5rem;
   font-weight: 1000;
   margin-top: 0;
 }
 
 .notReally {
-  font-size: 0.75rem;
-  margin: 0;
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
   padding: 0;
+  transform: translateY(5px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
 .divImg {
   border: 0px;
   outline: 0rem;
+  background: rgb(255, 255, 255);
+  border: 3px solid #3964a3;
+  border-radius: 3px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSlit {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-top: 2px solid rgb(34, 71, 126);
+  width: 155px;
 }
 
 button {
-  display: block;
-  margin: 1rem auto;
-  width: 16rem;
+  width: 9rem;
   height: 3rem;
-  font-family: "Gaegu", sans-serif;
-  font-size: 1.8rem;
+  font-family: "Patrick Hand", sans-serif;
+  font-size: 1.4rem;
   font-weight: 1000;
-  border: 2 px;
-  outline: none;
-  color: rgb(78, 78, 78);
-  background-color: rgb(255, 213, 151);
-  border-radius: 0.55rem;
+  border: 2px solid rgb(34, 71, 126);
+  color: rgb(34, 71, 126);
+  background-color: rgb(255, 255, 255);
   transition: all 0.5s;
-}
-
-i {
-  color: rgb(218, 95, 95);
-  font-size: 1.25rem;
-  margin-left: 0.2rem;
+  transform: translateY(-2px);
+  box-shadow: 1px 4px 5px 2px rgba(0, 0, 0, 0.315);
 }
 
 button:hover {
-  background-color: rgb(252, 226, 187);
-  width: 17rem;
   height: 3.5rem;
-  font-size: 2rem;
   transition: all 0.5s;
 }
 
@@ -77,23 +106,41 @@ button:hover {
     margin-bottom: 0rem;
   }
 
+  .topCloud {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 50px;
+  }
+
+  svg {
+    width: 5em;
+  }
+
+  .subhead {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  .subhead svg {
+    width: 0;
+  }
+
   .divImg {
     margin-top: 0.25rem;
     margin: 0 1.5rem 0 1.5rem;
   }
 
   header {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   p {
     font-size: 1.1rem;
   }
+
   button {
-    margin-top: 0.25rem;
+    margin-top: 0.07rem;
     margin-bottom: 0rem;
-    width: 13rem;
-    height: 2rem;
-    font-size: 1.5rem;
   }
   .notReally {
     font-size: 0.5rem;
