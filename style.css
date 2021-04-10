@@ -342,8 +342,33 @@ a:hover {
 }
 
 @media all and (max-width: 450px) {
+  body {
+    background: rgb(22, 32, 51);
+    border: 0;
+  }
+
   header {
     font-size: 1.25rem;
+    color: indianred;
+  }
+
+  .subhead {
+    color: rgb(223, 128, 128);
+  }
+
+  .divImg {
+    background: rgb(40, 55, 82);
+    border: 2px solid rgb(13, 23, 44);
+  }
+
+  .buttonSlit {
+    border-top: 2px solid rgb(13, 23, 44);
+  }
+
+  button {
+    background-color: indianred;
+    color: rgb(255, 230, 193);
+    border: 3px solid rgb(13, 23, 44);
   }
   .top {
     margin: 0 0;
