@@ -240,7 +240,7 @@ a:visited {
 }
 
 /*MOBILE media query*/
-@media all and (max-width: 800px) {
+@media all and (max-width: 700px) {
   body {
     border: 0px solid rgb(34, 71, 126);
   }
@@ -251,6 +251,14 @@ a:visited {
     margin-bottom: 0rem;
   }
 
+  .fda {
+    width: 0;
+    display: none;
+  }
+
+  .innerCircle {
+    width: 0;
+  }
   .topCloud {
     display: flex;
     justify-content: space-around;
@@ -258,12 +266,8 @@ a:visited {
     height: 50px;
   }
 
-  .topCloud svg {
-    width: 0;
-  }
-
   svg {
-    width: 5em;
+    display: none;
   }
 
   .subhead {
@@ -280,25 +284,40 @@ a:visited {
   }
 
   .divImg {
-    border-top: 10px solid bisque;
     outline: 0rem;
     margin-top: 0.25rem;
     margin: 0 1.5rem;
     background: bisque;
+    width: 400px;
   }
 
   header {
     font-size: 1rem;
   }
+
+  .topSpace {
+    display: none;
+  }
   p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
-  button {
-    margin-bottom: 0rem;
-    transform: translateY(-2px);
-  }
   .notReally {
     font-size: 0.5rem;
+  }
+
+  .footer {
+    width: 450px;
+  }
+
+  .about {
+    width: 150px;
+  }
+
+  h2 {
+    display: none;
+  }
+  .contact {
+    display: none;
   }
 }
