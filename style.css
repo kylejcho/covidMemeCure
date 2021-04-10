@@ -128,6 +128,9 @@ p {
   box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.315);
 }
 
+iframe {
+  transition: ease all 0.75s;
+}
 /* BUTTON */
 .buttonContainer {
   display: flex;
@@ -327,6 +330,14 @@ a:hover {
 @media all and (max-width: 550px) {
   .footer svg {
     display: none;
+  }
+  .divImg {
+    height: 420px;
+  }
+
+  iframe {
+    height: 95%;
+    width: 95%;
   }
 }
 
