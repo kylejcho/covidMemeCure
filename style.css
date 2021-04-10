@@ -247,7 +247,25 @@ a:hover {
 }
 
 /*MOBILE media query*/
+@media all and (max-width: 800px) {
+  .divImg {
+    width: 650px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .divImg {
+    width: 550px;
+  }
+}
+
 @media all and (max-width: 700px) {
+  .divImg {
+    width: 550px;
+  }
+}
+
+@media all and (max-width: 500px) {
   body {
     border: 0px solid rgb(34, 71, 126);
   }
@@ -335,5 +353,30 @@ a:hover {
   }
   .contact {
     display: none;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .topSpace {
+    display: none;
+  }
+
+  .fda {
+    display: none;
+  }
+  .top {
+    margin: 0 0;
+  }
+}
+
+@media all and (max-width: 900px) {
+  svg {
+    display: none;
+  }
+  h2 {
+    display: none;
+  }
+  .top {
+    margin: 0 0;
   }
 }
