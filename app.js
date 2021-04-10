@@ -13,7 +13,15 @@ fetch(
 
 //EVENT LISTENERS
 
-//Button click causes page refresh/new gif
+//Button click causes fetch//
 document.getElementById("gifChanger").addEventListener("click", function () {
-  location.reload();
+  fetch(
+    "https://api.giphy.com/v1/gifs/random?api_key=FBRudNFwSpiLbHJDhhXO1rPbRqpltIEV&tag=cute-dogs&rating=g"
+  )
+    .then((res) => {
+      res.json().then((data) => {
+        image.src = data.data.embed_url;
+      });
+    })
+    .catch();
 });
