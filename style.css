@@ -18,7 +18,7 @@ body {
 
 .main {
   overflow: auto;
-  padding-bottom: 170px;
+  padding-bottom: 140px;
 }
 
 body {
@@ -247,6 +247,108 @@ a:hover {
 }
 
 /*MOBILE media query*/
+@media all and (max-width: 1000px) {
+  .main svg {
+    display: none;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .subhead {
+    height: 30x;
+  }
+
+  .divImg {
+    margin: 10px;
+  }
+}
+
+@media all and (max-width: 938px) {
+  .topSpace {
+    display: none;
+  }
+  .fda {
+    display: none;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .divImg {
+    width: 90%;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+
+  .footerContent {
+    width: 90%;
+  }
+
+  .footer p {
+    font-size: 0.75rem;
+  }
+
+  .about {
+    width: 250px;
+    padding-right: 20px;
+  }
+
+  .links {
+    width: 170px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (max-width: 720px) {
+  header {
+    font-size: 1.5rem;
+  }
+  .top {
+    margin: 0 0;
+  }
+  .buttonContainer {
+    transform: translateX(-10px);
+  }
+}
+
+@media all and (max-width: 550px) {
+  .footer svg {
+    display: none;
+  }
+}
+
+@media all and (max-width: 450px) {
+  header {
+    font-size: 1.25rem;
+  }
+  .top {
+    margin: 0 0;
+  }
+  .quote{
+    font-size: 1.25rem;
+  }
+  .notReally {
+    font-size: 0.5rem;
+  }
+}
+
+@media all and (max-width: 429px) {
+  .contact {
+    display: none;
+  }
+  .links {
+    padding-right: 0;
+  }
+  .footer svg {
+    display: unset;
+  }
+}
+
+
+/*
 @media all and (max-width: 800px) {
   .divImg {
     width: 650px;
