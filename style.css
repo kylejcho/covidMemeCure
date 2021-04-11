@@ -91,13 +91,19 @@ svg {
     transform: translateY(-15px);
   }
 
-  70% {
+  50% {
     transform: translateY(-15px);
     transform: translateX(-5px);
   }
 
+  75% {
+    transform: translateY(0px);
+    transform: translateX(5px);
+  }
+
   100% {
     transform: translateY(0px);
+    transform: translateX(0px);
   }
 }
 
