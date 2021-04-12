@@ -368,13 +368,12 @@ h2 {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  transform: translate(150px, 1000px);
+  transform: translate(0px, 1000px);
   transition: 1s ease;
-  transform-origin: right bottom;
 }
 
 .moon.active {
-  transform: translate(-150px, -170px) rotate(180deg);
+  transform: translate(0px, -0px);
   visibility: visible;
   background: rgb(215, 246, 255);
   box-shadow: 0 2px 65px rgba(255, 255, 255, 0.623),
@@ -462,9 +461,6 @@ a:hover {
 
 /*MOBILE media query*/
 @media all and (max-width: 1800px) {
-  .moon.active {
-    transform: translate(-50px, 00px);
-  }
 }
 
 @media all and (max-width: 1200px) {
