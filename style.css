@@ -93,7 +93,7 @@ p,
   display: flex;
   align-items: center;
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   transition: ease all 1s;
 }
 
@@ -289,8 +289,8 @@ p {
   background: bisque;
   border: 5px solid #3964a3;
   border-radius: 7px;
-  height: 520px;
-  width: 730px;
+  height: 570px;
+  width: 830px;
   box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.315);
   transition: 0.5s ease;
 }
@@ -303,6 +303,7 @@ p {
 iframe {
   transition: ease all 0.75s;
 }
+
 /* BUTTON */
 .buttonContainer {
   display: flex;
@@ -464,7 +465,7 @@ a:hover {
 @media all and (max-width: 1800px) {
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1400px) {
   .divImg {
     width: 650px;
   }
