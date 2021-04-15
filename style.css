@@ -275,6 +275,7 @@ p {
 .ImgContainer {
   display: flex;
   justify-content: center;
+  transform: all ease 0.5s;
 }
 
 .ImgContainer svg {
@@ -606,5 +607,45 @@ a:hover {
   }
   .footer svg {
     display: unset;
+  }
+}
+
+@media all and (max-height: 850px) {
+  .divImg {
+    height: 450px;
+  }
+  iframe {
+    height: 95%;
+    width: 95%;
+  }
+}
+
+@media all and (max-height: 760px) {
+  .divImg {
+    height: 400px;
+  }
+}
+
+@media all and (max-height: 730px) {
+  .divImg {
+    height: 380px;
+  }
+}
+
+@media all and (max-height: 710px) {
+  .divImg {
+    height: 350px;
+  }
+  .ImgContainer {
+    height: 415px;
+  }
+}
+
+@media all and (max-height: 675px) {
+  .divImg {
+    height: 320px;
+  }
+  .ImgContainer {
+    height: 385px;
   }
 }
