@@ -290,7 +290,7 @@ p {
   border: 5px solid #3964a3;
   border-radius: 7px;
   height: 570px;
-  width: 830px;
+  width: 800px;
   box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.315);
   transition: 0.5s ease;
 }
@@ -465,7 +465,7 @@ a:hover {
 @media all and (max-width: 1800px) {
 }
 
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1500px) {
   .divImg {
     width: 650px;
   }
