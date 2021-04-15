@@ -464,12 +464,21 @@ a:hover {
 @media all and (max-width: 1800px) {
 }
 
+@media all and (max-width: 1300px) {
+  .divImg {
+    width: 650px;
+  }
+}
+
 @media all and (max-width: 1200px) {
   .moonContainer {
     display: none;
   }
   .subheadSpace {
     display: none;
+  }
+  .divImg {
+    width: 600px;
   }
 }
 
@@ -654,14 +663,10 @@ a:hover {
 
 @media all and (max-height: 710px) {
   .divImg {
-    height: 350px;
+    margin-top: 30px;
   }
   .ImgContainer {
     height: 400px;
-  }
-
-  .buttonSlit {
-    margin: 0px;
   }
 
   footer {
@@ -675,6 +680,10 @@ a:hover {
   }
   .ImgContainer {
     height: 370px;
+  }
+
+  .buttonSlit {
+    margin: 0px;
   }
 }
 
