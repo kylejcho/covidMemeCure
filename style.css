@@ -608,7 +608,12 @@ a:hover {
   .footer svg {
     display: unset;
   }
+  .footer {
+    height: 190px;
+  }
 }
+
+/*height*/
 
 @media all and (max-height: 850px) {
   .divImg {
@@ -639,6 +644,10 @@ a:hover {
   .ImgContainer {
     height: 400px;
   }
+
+  .buttonSlit {
+    margin: 0px;
+  }
 }
 
 @media all and (max-height: 675px) {
@@ -646,6 +655,24 @@ a:hover {
     height: 320px;
   }
   .ImgContainer {
-    height: 385px;
+    height: 370px;
+  }
+}
+
+@media all and (max-height: 650px) {
+  .divImg {
+    height: 320px;
+  }
+  .ImgContainer {
+    height: 350px;
+  }
+}
+
+@media all and (max-height: 640px) {
+  .divImg {
+    height: 320px;
+  }
+  .ImgContainer {
+    height: 350px;
   }
 }
