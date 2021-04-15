@@ -626,11 +626,19 @@ a:hover {
     height: 95%;
     width: 95%;
   }
+
+  footer {
+    padding-bottom: 215px;
+  }
 }
 
 @media all and (max-height: 760px) {
   .divImg {
     height: 400px;
+  }
+
+  footer {
+    padding-bottom: 265px;
   }
 }
 
@@ -650,6 +658,10 @@ a:hover {
 
   .buttonSlit {
     margin: 0px;
+  }
+
+  footer {
+    padding-bottom: 315px;
   }
 }
 
