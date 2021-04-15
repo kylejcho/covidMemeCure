@@ -611,6 +611,9 @@ a:hover {
   .footer {
     height: 190px;
   }
+  .notReally {
+    display: none;
+  }
 }
 
 /*height*/
@@ -666,6 +669,10 @@ a:hover {
   .ImgContainer {
     height: 370px;
   }
+
+  .buttonContainer {
+    padding-bottom: 15px;
+  }
 }
 
 @media all and (max-height: 640px) {
@@ -673,6 +680,6 @@ a:hover {
     height: 320px;
   }
   .ImgContainer {
-    height: 365px;
+    height: 360px;
   }
 }
