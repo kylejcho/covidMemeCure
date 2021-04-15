@@ -32,7 +32,7 @@ body {
 
 .main {
   overflow: visible;
-  padding-bottom: 140px;
+  padding-bottom: 170px;
 }
 
 body {
@@ -368,7 +368,7 @@ h2 {
   border-radius: 50%;
   height: 120px;
   width: 120px;
-  transform: translate(0px, 1000px);
+  transform: translate(0px, 850px);
   transition: 1s ease;
 }
 
