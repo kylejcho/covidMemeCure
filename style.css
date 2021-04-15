@@ -614,6 +614,10 @@ a:hover {
   .notReally {
     display: none;
   }
+
+  .buttonContainer {
+    transform: translateX(-12px);
+  }
 }
 
 /*height*/
