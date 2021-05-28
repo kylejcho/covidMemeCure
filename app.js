@@ -9,11 +9,11 @@ fetch(
       image.src = data.data.embed_url;
     });
   })
-  .catch();
+  ;
 
 //EVENT LISTENERS
 
-//Button click causes fetch//
+//Button click causes new fetch//
 document.getElementById("gifChanger").addEventListener("click", function () {
   fetch(
     "https://api.giphy.com/v1/gifs/random?api_key=FBRudNFwSpiLbHJDhhXO1rPbRqpltIEV&tag=cute-dogs&rating=g"
