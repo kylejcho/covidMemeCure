@@ -8,8 +8,7 @@ fetch(
     res.json().then((data) => {
       image.src = data.data.embed_url;
     });
-  })
-  ;
+  });
 
 //EVENT LISTENERS
 
@@ -23,7 +22,7 @@ document.getElementById("gifChanger").addEventListener("click", function () {
         image.src = data.data.embed_url;
       });
     })
-    .catch();
+    ;
 });
 
 const moon = document.getElementsByClassName("moon")[0];
