@@ -12,7 +12,7 @@ fetch(
 
 //EVENT LISTENERS
 
-//Button click causes new fetch//
+//Button click causes new fetch and new gif//
 document.getElementById("gifChanger").addEventListener("click", function () {
   fetch(
     "https://api.giphy.com/v1/gifs/random?api_key=FBRudNFwSpiLbHJDhhXO1rPbRqpltIEV&tag=cute-dogs&rating=g"
@@ -25,6 +25,7 @@ document.getElementById("gifChanger").addEventListener("click", function () {
     ;
 });
 
+//Create variables for classes 
 const moon = document.getElementsByClassName("moon")[0];
 const behindCloud = document.getElementsByClassName("behindCloud");
 const darkCloud = document.getElementsByClassName("darkCloud");
@@ -37,6 +38,8 @@ const divImg = document.getElementsByClassName("divImg")[0];
 const header = document.querySelector("header");
 const body = document.querySelector("body");
 const toggle = document.getElementById("toggle");
+
+//onclick marks classes as "active" which allows the elements to change color from dark mode toggle button
 toggle.onclick = function () {
   toggle.classList.toggle("active");
   body.classList.toggle("active");
@@ -48,7 +51,6 @@ toggle.onclick = function () {
   innerCircle.classList.toggle("active");
   fda.classList.toggle("active");
   moon.classList.toggle("active");
-
   for (var i = 0; i < darkCloud.length; i++) {
     darkCloud[i].classList.toggle("active");
   }
@@ -56,3 +58,6 @@ toggle.onclick = function () {
     behindCloud[i].classList.toggle("active");
   }
 };
+
+
+
